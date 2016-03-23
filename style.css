@@ -1,0 +1,88 @@
+html,body,.container
+{
+    height:100%;
+}
+.row, .row-fluid
+{
+    height: 100%;
+    display: table-row;
+
+}
+
+.container, .container-fluid
+{
+    display:table;
+    width: 100%;
+
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.video-section .pattern-overlay {
+background-color: rgba(71, 71, 71, 0.59);
+padding: 110px 0 32px;
+min-height: 700px; 
+height : 100vh;
+/* Incase of overlay problems just increase the min-height*/
+}
+.container, .container-fluid { 
+  padding: 0px;
+}
+.video-section h1, .video-section h3{
+text-align:center;
+color:#fff;
+}
+.video-section h1{
+font-size:110px;
+font-family: 'Buenard', serif;
+font-weight:bold;
+text-transform: uppercase;
+margin: 40px auto 0px;
+text-shadow: 1px 1px 1px #000;
+-webkit-text-shadow: 1px 1px 1px #000;
+-moz-text-shadow: 1px 1px 1px #000;
+}
+.video-section h3{
+font-size: 25px;
+font-weight:lighter;
+margin: 0px auto 15px;
+}
+.video-section h2, .video-section h4, .video-section h6 {
+text-align: right;
+}
+.video-section .buttonBar{display:none;}
+.player {font-size: 1px;}
+.crab {
+    background-image: url(img/crab1.jpg);
+    min-height: 700px;    
+    background-repeat: no-repeat;
+    background-width: 100%;
+    background-size: cover;
+    height : 100vh;
+}
+.crab h4 {
+    color: rgba(218, 202, 220, 0.58);
+    padding-top: 15vh;
+}
+.crab-fail {
+color: rgba(218, 202, 220, 0.58);
+    text-align: justify;
+    font-size: 10px;
+        float: left;
+}
+.crab h1, .crab p {
+text-align: center;
+
+}
+.crab-title {
+padding-top: 20vh;
+color: #ADACAC;
+text-shadow: 1px 1px 2px black, 0 0 1em red;
+}
+.works {
+    background-image: url(img/matrix.jpg);
+    min-height: 700px;    
+    background-repeat: no-repeat;
+    background-width: 100%;
+    background-size: cover;
+    height : 100vh;
+}
